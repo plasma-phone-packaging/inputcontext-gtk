@@ -2,7 +2,11 @@ Source: inputcontext-gtk
 Section: libs
 Priority: optional
 Maintainer: Jonathan Riddell <jr@jriddell.org>
-Build-Depends: debhelper (>= 9)
+Build-Depends: debhelper (>= 9),
+               libdbus-glib-1-dev,
+               libglib2.0-dev,
+               qt5-default,
+               qt5-qmake
 Standards-Version: 3.9.6
 Homepage: https://github.com/maliit/inputcontext-gtk
 Vcs-Git: https://github.com/plasma-phone-packaging/inputcontext-gtk.git

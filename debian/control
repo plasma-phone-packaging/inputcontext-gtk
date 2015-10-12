@@ -1,0 +1,15 @@
+Source: inputcontext-gtk
+Section: libs
+Priority: optional
+Maintainer: Jonathan Riddell <jr@jriddell.org>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.6
+Homepage: https://github.com/maliit/inputcontext-gtk
+Vcs-Git: https://github.com/plasma-phone-packaging/inputcontext-gtk.git
+Vcs-Browser: https://github.com/plasma-phone-packaging/inputcontext-gtk
+
+Package: maliit-inputcontext-gtk
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: The GTK+ input context for Maliit
+ This plugin allow GTK to use Maliit.

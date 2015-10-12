@@ -1,0 +1,5 @@
+inputcontext-gtk (0.0+git20151012-0ubuntu1) UNRELEASED; urgency=low
+
+  * Initial packagae
+
+ -- Jonathan Riddell <jr@jriddell.org>  Mon, 12 Oct 2015 14:13:58 +0000

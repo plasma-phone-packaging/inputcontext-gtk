@@ -1,0 +1,9 @@
+#!/usr/bin/make -f
+
+%:
+	dh $@ 
+
+override_dh_auto_clean:
+	dh_auto_clean
+	rm -f connection-glib/meego-im-proxy-glue.h
+	rm -f connection-glib/meego-imcontext-dbus-glue.h

@@ -3,6 +3,9 @@
 %:
 	dh $@ 
 
+override_dh_auto_configure:
+	qmake -makefile CONFIG+=notests CONFIG+=nodoc CONFIG+=disable-gtk-cache-update
+
 override_dh_auto_clean:
 	dh_auto_clean
 	rm -f connection-glib/meego-im-proxy-glue.h

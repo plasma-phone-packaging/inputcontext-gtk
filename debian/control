@@ -5,6 +5,8 @@ Maintainer: Jonathan Riddell <jr@jriddell.org>
 Build-Depends: debhelper (>= 9),
                libdbus-glib-1-dev,
                libglib2.0-dev,
+               libgtk2.0-dev,
+               libgtk-3-dev,
                qt5-default,
                qt5-qmake
 Standards-Version: 3.9.6
